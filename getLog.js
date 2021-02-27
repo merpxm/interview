@@ -1,4 +1,4 @@
-import { execGitCmd } from "run-git-command";
+const execGitCmd = require('run-git-command');
 
 const gitCommand = "git log -p -25";
 const execOptions = {
